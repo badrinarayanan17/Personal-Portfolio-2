@@ -1,0 +1,4 @@
+Cmd for finding and killing a process
+
+netstat -ano | find "8080"
+taskkill /F /PID 17516
